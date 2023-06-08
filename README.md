@@ -1,1 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/reontqEs)
+# 実行方法
+```shell
+./gradlew build
+```
+等でビルドし、
+```shell
+java -jar build/libs/X5-1-all.jar src/main/java/App.java src/main/java/AnalogyInfo.java
+```
+のように比較対象のファイルを2つ引数として渡し、実行する。
